@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Opt Out Gutenberg
-Description: A very simple and lightweight plugin that disables the Gutenberg block editor and restores the classic editor in WordPress for all post types. There are no settings to mess around with. Just install and activate.
+Description: A very simple and lightweight plugin that disables the Gutenberg block editor and restores the classic editor in WordPress for all post types.
 Author: Thanh Nguyen
 Author URI: https://github.com/TanManWeb/
 Version: 1.0.0
