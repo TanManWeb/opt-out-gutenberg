@@ -4,7 +4,9 @@ A very simple and lightweight plugin that disables the Gutenberg block editor an
 ## What makes this plugin different?
 There are several plugins available in the WordPress Plugin Directory for disabling the Gutenberg block editor. However, some are overly complicated to use. Others leave traces of Gutenberg in the ```<head></head>``` tags of your WordPress website source code specifically ```'wp-block-library-css'``` and ```'wp-block-library-theme-css'```. 
 
-This plugin aims to fix that. Once activated, this plugin will restore the classic editor in your WordPress backend and will also remove ```'wp-block-library-css'``` and ```'wp-block-library-theme-css'``` between the ```<head></head>``` tags of your WordPress website frontend source code.
+This plugin aims to fix that. Once activated, this plugin will restore the classic editor in your WordPress backend and will also remove ```'wp-block-library-css'``` and ```'wp-block-library-theme-css'``` between the ```<head></head>``` tags of your WordPress website in the frontend. 
+
+By not loading these two CSS files, your website will load faster. That’s two less requests per website visit. That may not sound like much but if you have 1000 visitors a day on your website, that’s 60,000 fewer requests per month which is significant.
 
 ## Installation
 1. After you download it, unzip the plugin files.
